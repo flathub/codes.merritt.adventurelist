@@ -15,6 +15,8 @@ finish-args:
   - --device=dri
   - --socket=pulseaudio
   - --share=network
+  - --talk-name=org.freedesktop.Notifications # Notification support
+  - --talk-name=org.kde.StatusNotifierWatcher # Tray icon support
 modules:
   # libappindicator
   - shared-modules/libappindicator/libappindicator-gtk3-12.10.json
