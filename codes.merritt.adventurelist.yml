@@ -60,10 +60,10 @@ modules:
       - ./build-flatpak.sh
     sources:
       - type: file
-        url: https://github.com/Merrit/adventure_list/releases/download/v0.14.1/AdventureList-Linux-Portable.tar.gz
-        sha256: f7b4059489cf7eaa6738d8c3b7faadd8273142c66268b28954a692a22da6c9d5
+        url: https://github.com/Merrit/adventure_list/releases/download/v0.14.2/AdventureList-Linux-Portable.tar.gz
+        sha256: ad2c8987bbb5a700a9a358a3ec6f63ce2415fd1bcc1aa67a8a0f7369d66fa929
       - type: git
         url: https://github.com/Merrit/adventure_list.git
-        commit: e85ae7fbd3d48a2b88e6eb9b74350c0f4147e438
+        commit: 43352cd8b8da605262ca11c6d2480ed39801cfe9
       - type: file
         path: build-flatpak.sh
