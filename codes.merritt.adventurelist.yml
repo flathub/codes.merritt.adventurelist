@@ -1,10 +1,6 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/flatpak/flatpak-builder/main/data/flatpak-manifest.schema.json
-# Reference docs: https://docs.flatpak.org/en/latest/flatpak-builder-command-reference.html#flatpak-manifest
-
----
 app-id: codes.merritt.adventurelist
 runtime: org.freedesktop.Platform
-runtime-version: "23.08"
+runtime-version: '23.08'
 sdk: org.freedesktop.Sdk
 command: adventure_list
 separate-locales: false
@@ -37,8 +33,8 @@ modules:
       - -Ddocbook_docs=disabled
     sources:
       - type: archive
-        url: https://download.gnome.org/sources/libnotify/0.8/libnotify-0.8.3.tar.xz
-        sha256: ee8f3ef946156ad3406fdf45feedbdcd932dbd211ab4f16f75eba4f36fb2f6c0
+        url: https://download.gnome.org/sources/libnotify/0.8/libnotify-0.8.4.tar.xz
+        sha256: 8fa04d4ebdc155b0a239df88bd9f09e8f2739d5707a1390b427ab4985f83d25a
         x-checker-data:
           type: gnome
           name: libnotify
