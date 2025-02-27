@@ -11,5 +11,5 @@ projectId=codes.merritt.adventurelist
 
 
 # git submodule update --remote --merge --init --recursive
-flatpak-builder --force-clean --disable-cache --disable-rofiles-fuse build-dir $projectId.yml --repo=repo
+flatpak run org.flatpak.Builder --force-clean --disable-cache --disable-rofiles-fuse build-dir $projectId.yml --repo=repo
 flatpak build-bundle repo $projectId.flatpak $projectId
